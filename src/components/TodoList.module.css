@@ -1,0 +1,19 @@
+.todoList {
+  /* padding: 0 1rem; */
+  flex: 1;
+  overflow: auto;
+}
+
+.todoItem {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.title {
+  flex: 1;
+}
+.deleteButton {
+  height: 2rem;
+}
